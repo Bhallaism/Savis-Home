@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg4.jpg');
+    background-size: cover;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgba(255,255,255,0.7);
+    flex: 1;
+}
+
+.tool {
+    /* Adjusted to translucent green */
+    background-color: rgba(76, 175, 80, 0.5);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.tool:hover {
+    /* Adjusted hover effect to a darker translucent green */
+    background-color: rgba(69, 160, 73, 0.7);
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+}
